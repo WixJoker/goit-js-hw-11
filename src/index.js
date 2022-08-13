@@ -21,7 +21,7 @@ let lightbox = new SimpleLightbox('.gallery a', {
 const axios = require('axios').default;
 
 const BASE_URL = 'https://pixabay.com/api/';
-const KEY = '29034983-efec06dd5286ef1d9795c8211';
+const KEY = '25349801-93e8f8673522f488449b0dac2';
 let searchQuery = '';
 let pageCount = 1;
 let imagesShown = 0;
