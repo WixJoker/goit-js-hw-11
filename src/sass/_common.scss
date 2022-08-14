@@ -83,7 +83,7 @@ button:hover {
   top: -30px;
   right: 5px;
   content: '';
-  background-image: url('../images/like.svg');
+  background-image: url('../images/heart.svg');
   background-repeat: no-repeat;
   background-size: contain;
   width: 30px;
@@ -94,7 +94,7 @@ button:hover {
   top: -30px;
   right: 30px;
   content: '';
-  background-image: url('../images/comment.svg');
+  background-image: url('../images/heart.svg');
   background-repeat: no-repeat;
   background-size: contain;
   filter: hue-rotate(90deg);
@@ -106,7 +106,7 @@ button:hover {
   top: -30px;
   right: 15px;
   content: '';
-  background-image: url('../images/view.svg');
+  background-image: url('../images/heart.svg');
   background-repeat: no-repeat;
   background-size: contain;
   filter: hue-rotate(90deg);
@@ -118,7 +118,7 @@ button:hover {
   top: -30px;
   right: 35px;
   content: '';
-  background-image: url('../images/download.svg');
+  background-image: url('../images/heart.svg');
   background-repeat: no-repeat;
   background-size: contain;
   filter: hue-rotate(90deg);
@@ -136,7 +136,7 @@ input {
   border-radius: 25px;
   outline: none;
 }
-.search-form__btn-load:disabled {
+.search-form__load-more:disabled {
   opacity: 0;
   cursor: default;
 }
